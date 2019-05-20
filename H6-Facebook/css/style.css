@@ -1,0 +1,254 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+line-height{
+    1.34;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+/*common codes ends here*/
+.bgcolor{
+    background: #3D5B99;
+}
+#top_full_part{
+    width: 980px;
+    height: 80px;
+}
+.heading_part{
+    width: 160px;
+    height: 80px;
+    float: left;
+}
+.heading_part a h1{
+    width: 156px;
+    font-size: 250%;
+    color: #f8fbff;
+    margin-top: 25px;
+    display: block;
+}
+.hidden_part_one{
+    width: 432px;
+    height: 80px;
+    float: left;
+}
+.login_form_part{
+    width: 388px;
+    height: 80px;
+    float: left;
+}
+.form_text{
+    padding-top: 4px;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    text-align: left;
+    font-size: 14px;
+}
+.form_text label{
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.input_text{
+    width: 142px;
+    border-color: #1d2a5b;
+    padding-bottom: 4px;
+    padding: 3px;
+    border: 1px solid #1d2a5b;
+    margin-right: 16px;
+}
+.login_button{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    cursor: pointer;
+    padding: 2px 6px;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: top;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.login_submit{
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+.text_of_for{
+    width: 142px;
+    padding-top: 3px;
+}
+.text_of_for a{
+    color: #b9b6b6;
+    font-size: 13px;
+}
+/*top part ends here*/
+.bgcolor_two{
+    background: #E3E6F0;
+}
+.global_part{
+    width: 980px;
+    height: 700px;
+}
+.float_left{
+    width: 580px;
+    float: left;
+}
+.float_left .float_text{
+    width: 565px;
+    margin-right: 15px;
+}
+.heading_text_one{
+    width: 450px;
+    font-size: 20px;
+    color: #0e385f;
+    margin-top: 40px;
+    font-weight: bold;
+    line-height: 29px;
+    word-spacing: -1px;
+}
+.float_right{
+    width: 400px;
+    float: left;
+}
+.login_heading{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.acc_heading{
+    font-family: inherit;
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.acc_para{
+    font-family: inherit;
+    font-size: 19px;
+    color: #1d2129;
+}
+.regestaion_container{
+    
+}
+.reg_input{
+    width: 170px;
+    padding: 12px 10px;
+    margin-right: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.reg_input_two{
+    width: 170px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.reg_input_email{
+    width: 381px;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.regestaion_container form h5{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: none;
+}
+#birth_time{
+    height: 30px;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    border: 1px solid #b9b9b9;
+}
+.regestaion_container a{
+    color: #365899;
+    font-size: 11px;
+    width: 150px;
+    margin-left: 15px;
+}
+.gender{
+    margin-top: 25px;
+    
+}
+.gender_text{
+    font-size: 22px;
+    padding-right: 20px;
+}
+.regestaion_container form p{
+    font-size: 14px;
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 350px;
+}
+.create_an_acc{
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size: 19px;
+    color: #fff;
+    width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 126%;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+}
+.regestaion_container form h6{
+    font-size: 14px;
+    color: #444;
+    margin-top: 20px;
+}
+.regestaion_container form strong{
+    font-size: 13px;
+    cursor: pointer;
+    color: #061b8b;
+}
+/*global_part ends here*/
+.footer_text{
+    text-align: center;
+    padding: 25px 25px;
+    color: dimgrey;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

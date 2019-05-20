@@ -1,0 +1,144 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+.wrapper_full{
+    width: 100%;
+}
+/*common codes ends here*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    height: 1400px;
+    background: #648e91;
+    padding-bottom: 40px;
+}
+.wrapper ul{
+    width: 960px;
+    height: 50px;
+}
+.wrapper ul li{
+    float: left;
+}
+.wrapper ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 47px;
+    background: #749856;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    border-right: 1px solid #528b6f;    
+}
+.wrapper ul li:last-child a{
+    padding-right: 60px;
+    border-right: 0px;
+}
+.wrapper ul li a:hover{
+    background: #025;
+    color: #999;
+}
+.wrapper p{
+    width: 288px;
+    height: 300px;
+    background: rgba(100, 133, 145, 0.65);
+    padding: 40px 15px;
+    color: #fff;
+    float: left;
+    border-left: 1px solid #999;
+}
+.wrapper h5{
+    background: #5b6788;
+    width: 960px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #445a51;
+    font-size: 16px;
+}
+.wrapper h1{
+    color: #fff;
+    width: 960px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.wrapper span > p{
+    width: 929.5px;
+    height: 300px;
+    background: #534534;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 300px;
+}
+.wrapper h2{
+    width: 222px;
+    height: 468px;
+    text-align: center;
+    line-height: 180px;
+    color: #fff;
+    float: left;
+    background: rgba(131, 63, 63, 0.79);
+    position: relative;
+}
+.wrapper h2::after{
+    content: 'Section_content';
+    width: 516px;
+    height: 468px;
+    position: absolute;
+    background: rgba(115, 162, 121, 0.87);
+    left: 100%;
+    text-align: center;
+    line-height: 468px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.wrapper span > h3{
+    width: 222px;
+    height: 468px;
+    text-align: center;
+    line-height: 180px;
+    color: #fff;
+    float: right;
+    background: rgba(131, 63, 63, 0.79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

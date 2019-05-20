@@ -1,0 +1,91 @@
+/*
+Project-05
+Font-Face Css
+Start Date: 18-01-17
+............................
+Bloom-Creative-Agency-Design
+............................
+----------------
+Table of content
+----------------
+---All page fonts Face css here---
+
+*/
+@font-face{
+    font-family: mttreg;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face{
+    font-family: mttsb;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-SemiBold.otf);
+}
+@font-face{
+    font-family: mttm;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-Medium.otf);
+}
+@font-face{
+    font-family: mttl;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face{
+    font-family: mttb;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-Bold.otf);
+}
+@font-face{
+    font-family: mttt;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-Thin.otf);
+}
+@font-face{
+    font-family: mttul;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-UltraLight.otf);
+}
+@font-face{
+    font-family: mttxl;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-ExtraLight.otf);
+}
+@font-face{
+    font-family: mtteb;
+    font-weight:;
+    src: url(../fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

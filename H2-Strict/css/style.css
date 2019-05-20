@@ -1,0 +1,181 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.clr{
+    clear: both;
+}
+/*common code ends*/
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+#menubar{
+    height: 99px;
+    background: #F6F9F9;
+}
+#menubar .logo{
+    width: 480px;
+    height: 99px;
+    float: left;
+}
+#menubar img{
+    margin-top: 30px;
+}
+#menubar ul{
+    float: left;
+}
+#menubar ul li{
+    float: left;
+}
+#menubar ul li a{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    color: #2d3950;
+    line-height: 99px;
+    padding: 0px 20px;
+}
+/*menu bar ends*/
+#banner{
+    background: url(../images/banner_img_one.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#banner h1{
+    font-family: Myriad Pro;
+    font-size: 120px;
+    color: #ffffff;
+    padding: 218px 92px 0px 92px;
+    border-bottom: 2px solid #15A4FA;
+    display: inline-block;
+}
+#banner p{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+#banner a{
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+    font-family: Myriad Pro;
+    padding: 21px 35px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#banner a:hover{
+    background: #69e;
+    padding: 21px 50px;
+}
+/*banner ends*/
+#design{
+    background: #F6F9F9;
+    text-align: center;
+}
+#design h2{
+    font-family: Myriad Pro;
+    font-size: 40px;
+    color: #2d3950;
+    padding-top: 80px;
+}
+#design p{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    padding-top: 34px;
+    color: #999999;
+    line-height: 30px;
+    padding-bottom: 118px;
+}
+/*Design ends*/
+#icon_part .icon_one{
+    width: 320px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 65px 35px;
+}
+#icon_part .icon_one h3{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    color: #2d3950;
+    padding-top: 32px;
+}
+#icon_part .icon_one p{
+    font-family: Myriad Pro;
+    font-size: 15px;
+    padding-top: 22px;
+    color: #999999;
+}
+/*icon_part ends*/
+#gallery{
+    background: #F6F9F9;
+    height: 750px;
+}
+#gallery h2{
+    font-family: Myriad Pro;
+    font-size: 41px;
+    color: #2d3950;
+    padding: 80px 0px 27px 0px;
+    text-align: center;
+}
+#gallery p{
+    font-family: Myriad Pro;
+    font-size: 15px;
+    color: #909090;
+    padding-bottom: 81px;
+    text-align: center;
+}
+#gallery .gallery_img{
+    width: 291px;
+    float: left;
+    padding-right: 29px;
+    padding-bottom: 29px;
+}
+#gallery .gallery_img:hover{
+    opacity: 0.5;
+}
+.img{
+    width: 291px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

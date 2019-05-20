@@ -1,0 +1,169 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: Myriad Pro;
+    font-size: 16px;
+}
+.clr{
+    clear: both;
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+/*end of common code*/
+.menu_bg{
+    background: #156367;
+    height: 60px;
+}
+.heading{
+    width: 200px;
+    line-height: 60px;
+    text-align: center;
+    color: #a9b8ba;
+    float: left;
+    font-size: 14px;
+}
+.menu_list{
+    float: left;
+    width: 735px;
+    height: 60px;
+}
+.menu_list ul{
+    float: right;
+}
+.menu_list ul li{
+    float: left;
+}
+.menu_list ul li a{
+    font-size: 13px;
+    color: #7abe9f;
+    line-height: 60px;
+    display: block;
+    padding: 0px 25px;
+    
+}
+.menu_list ul li a:hover{
+    color: #667499;
+}
+.banner_bg{
+    background: url(../images/banner_bg.jpg);
+    width: 960px;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.head_text{
+    width: 144px;
+    height: 37px;
+    border: 2px solid #60a560;
+    border-radius: 26px;
+    position: absolute;
+    top: 83%;
+    left: 72%;
+    color: #a3bca6;
+    text-align: center;
+    font-size: 150%;
+}
+.wish_bg{
+    background: #0D4748;
+}
+.wish_heading{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #98c9db;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+.wish_one{
+    background: #444;
+}
+.wish_one h5{
+    width: 200px;
+    float: left;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 27px;
+    background: #1A9799;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 150px;
+    margin-left: 15px;
+}
+.wish_three h5{
+    width: 200px;
+    float: left;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 27px;
+    background: #1A9799;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+}
+.wish_img{
+    padding-top: 40px;
+    background: rgba(13, 71, 72, 0.28);
+    height: 400px;
+}
+.img{
+    width: 300px;
+    height: 350px;
+    padding-left: 15px;
+    border-radius: 30px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

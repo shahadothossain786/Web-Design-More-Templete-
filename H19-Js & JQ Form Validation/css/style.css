@@ -1,0 +1,175 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+.main_container{
+    width: 100%;
+    height: 1000px;
+    background: #1abc9c;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+/*common codes ends here*/
+.container .header{
+	padding-top: 60px;
+}
+.container .header h1{
+	font-family: monospace;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.container .menu_list{
+	width: 360px;
+	height: auto;
+	margin: 0 auto;
+}
+.container .menu_list .form{
+
+}
+.container .menu_list .select_lable_one{
+    color: #fff;
+	padding: 15px 25px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.menu_list ul li{
+    display: block;
+}
+.container .menu_list .select_lable{
+	color: #fff;
+	padding: 15px 25px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+    display: block;
+}
+.container .menu_list .ui_li_name{
+	width: 100%;
+	height: 40px;
+	margin: 8px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+}
+
+.container .menu_list .ui_li_email{
+	width: 100%;
+	margin: 8px;
+	height: 40px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+}
+
+.container .menu_list .ui_li_con_email{
+	width: 100%;
+	margin: 8px;
+	height: 40px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+}
+
+.container .menu_list .ui_li_pass{
+	width: 100%;
+	margin: 8px;
+	height: 40px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+}
+
+.container .menu_list .ui_li_ret_pass{
+	width: 100%;
+	margin: 8px;
+	height: 40px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+}
+.container .menu_list .ui_btn{
+	width: 100%;
+	margin: 8px;
+	height: 40px;
+	border-radius: 6px;
+	transition: all 300ms ease;
+	background-color: #69e;
+	color: #fff;
+	text-align: center;
+	transition: all linear 0.5s;
+}
+.container .menu_list .ui_btn:hover{
+	background-color: #1abc9c;
+	color: #025;
+	cursor: pointer;
+}
+.container .menu_list .ptext{
+	color: #964f8e;
+	font-size: 14px;
+	font-family: monospace;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

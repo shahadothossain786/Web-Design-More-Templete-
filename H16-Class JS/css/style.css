@@ -1,0 +1,160 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+p{
+    padding: 0;
+    font-size: 15px;
+    color: #712562;
+    font-family: sans-serif;
+    margin-left: 133px;
+    margin-bottom: 10px;
+}
+#header{
+    width: 960px;
+    margin: 0 auto;
+}
+/*common codes ends here*/
+#header .cls_proj{
+    height: auto;
+    padding: 40px;
+    margin: 40px;
+    background: rgba(77, 61, 105, 0.58);
+    position: relative;
+}
+#header .cls_proj h1{
+    text-align: center;
+    font-size: 40px;
+    color: #11326a;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 40px;
+    font-family: fantasy;
+}
+#header #project{
+    width: 100%;
+    height: auto;
+}
+#header .focus:focus{
+    border-color: rgb(255, 87, 87);
+}
+#header .focus:hover{
+    border-color: rgb(39, 97, 255);
+    box-shadow: 2px 2px;
+}
+#header .focus{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #696769;
+    border-radius: 10px;
+    color: rgb(101, 139, 144);
+    font-size: 20px;
+    margin: 0px 130px 10px;
+}
+#header .send{
+    margin: 40px 280px 10px;
+    padding: 20px 90px;
+    border: 2px solid rgb(152, 35, 180);
+    background: rgba(219, 224, 205, 0.13);
+    color: #07390b;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all linear 0.5s;
+    cursor: pointer;
+}
+#header .send:hover{
+    background: rgb(152, 35, 180);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

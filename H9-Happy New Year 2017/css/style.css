@@ -1,0 +1,90 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 1275px;
+    margin: 100px auto;
+}
+@font-face{
+    font-family: Lato-Italic;
+    src: url(../fonts/Lato-Italic/Lato-Italic.ttf);
+}
+@font-face{
+    font-family: CoffeeBreak-A;
+    src: url(../fonts/Lato-Italic/CoffeeBreak-A.otf);
+}
+/*common codes ends here*/
+#Happy_n_y{
+    height: 1875px;
+    background: url(../images/New-Year-Party-Flyer-Template-PSD.png);
+    position: relative;
+}
+#Happy_n_y .text{
+    font-family: Lato-Italic;
+    font-size: 30px;
+    color: #32bfdf;
+    position: absolute;
+    bottom: 330px;
+    text-align: center;
+    left: 8%;
+}
+#Happy_n_y .head{
+    position: absolute;
+    bottom: 100px;
+    left: 42%;
+    font-family: CoffeeBreak-A;
+    font-size: 25px;
+    color: #606a51;
+}
+#Happy_n_y{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

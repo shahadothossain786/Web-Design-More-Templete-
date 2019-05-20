@@ -1,0 +1,347 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    
+}
+.clr{
+    clear: both;
+}
+#header{
+    width: 960px;
+    margin: 0 auto;
+}
+/*common codes ends here*/
+#header h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 40px;
+}
+#header h2{
+    text-align: center;
+    font-size: 25px;
+}
+#line_one{
+  text-align: center;
+  overflow:hidden;
+  margin: 100px auto;
+  width:600px;
+  height:25px;
+  box-shadow: 0px 0px 20px 5px #666;
+  background: #999;
+  transition: all linear 0.5s;
+  color:#999;
+}
+#line_one:hover{
+  background:#555;
+  padding: 45px;
+  color:#025;
+  font-size:30px;
+  border-radius:6px;
+    cursor: pointer;
+}
+#line_two{
+  margin: 100px auto;
+	width:500px;
+  height:25px;
+  box-shadow: 0px 0px 20px 5px #666;
+  background: #999;
+  transition: all linear 0.5s;
+  color:#999;
+  text-align:center;
+  overflow:hidden;
+}
+#line_two:hover{
+  background:#69e;
+  width:100px;
+  color:#025;
+  padding:25px;
+  border-radius: 6px;
+    cursor: pointer;
+}
+#line_three{
+  margin: 100px auto;
+  width: 150px;
+  height: 25px;
+  box-shadow: 0px 0px 20px 5px #666;
+  background: #999;
+  transition: all linear 0.5s;
+  color:#999;
+  text-align:center;
+  overflow:hidden;
+}
+#line_three:hover{
+  width: 600px;
+  color:#025;
+  padding:25px;
+  border-radius: 6px;
+  background:red;
+  cursor: pointer;
+}
+#box{
+    width: 300px;
+    height: 200px;
+    background: #358e5e;
+    margin: 40px auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+#box_one{
+    width: 300px;
+    height: 200px;
+    background: #623b4b;
+    margin: 40px auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 35px;
+    color: #025;
+    line-height: 200px;
+}
+#box_two{
+    width: 300px;
+    height: 200px;
+    background: #625d3b;
+    margin: 40px auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+#box_two .box_two{
+    position: absolute;
+    background: rgba(75, 49, 33, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: 100%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_two:hover .box_two{
+    right: 0%;
+}
+#box_one .box_one{
+    position: absolute;
+    background: rgba(60, 49, 186, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 100%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_one:hover .box_one{
+    left: 0%;
+}
+.overly{
+    position: absolute;
+    background: rgba(50, 118, 134, 0.7);
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 100%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box:hover .overly{
+    left: 50%;
+}
+.overly_two{
+    position: absolute;
+    background: rgba(50, 118, 134, 0.7);
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    right: 100%;
+    text-align: center;
+/*    transform: scale(0);*/
+    transition: all linear 0.9s;
+}
+#box:hover .overly_two{
+    right: 50%;
+}
+#box_three{
+    width: 300px;
+    height: 200px;
+    background: #182360;
+    margin: 40px auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.overly_three{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 100%;
+    height: 50%;
+    bottom: 100%;
+    right: 0%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_three:hover .overly_three{
+    bottom: 50%;
+}
+.overly_four{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 100%;
+    height: 50%;
+    top: 100%;
+    left: 0%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_three:hover .overly_four{
+    top: 50%;
+}
+/**/
+#box_four{
+    width: 300px;
+    height: 200px;
+    background: #345030;
+    margin: 40px auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+#box_four .overly_five{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 50%;
+    height: 50%;
+    top: 100%;
+    left: -50%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_four:hover .overly_five{
+    top: 50%;
+    left: 50%;
+}
+#box_four .overly_six{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 50%;
+    height: 50%;
+    top: 0%;
+    left: 100%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_four:hover .overly_six{
+    left: 50%;
+}
+#box_four .overly_seven{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 50%;
+    height: 50%;
+    right: -50%;
+    top: 100%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_four:hover .overly_seven{
+    top: 50%;
+    right: 50%;
+}
+#box_four .overly_eight{
+    position: absolute;
+    background: rgba(59, 106, 170, 0.7);
+    width: 50%;
+    height: 50%;
+    bottom: 100%;
+    left: 0%;
+    text-align: center;
+    transition: all linear 0.9s;
+}
+#box_four:hover .overly_eight{
+    bottom: 50%;
+}
+#demo{
+  margin: 100px auto;
+  width: 100%;
+  height:auto;
+  text-align:center;
+  color: #025;
+  font-size: 60px;
+  background:#999;
+  padding:25px;
+  transition: all linear 0.5s;
+    margin-bottom: 200px;
+}
+#demo:hover{
+  width: 278px;
+  height: 20px;
+  cursor:pointer;
+  font-size:25px;
+  background: #69e;
+}
+#demo_one{
+  width:300px;
+  height: auto;
+  margin: 100px auto;
+  text-align:center;
+  font-size: 30px;
+  padding:10px;
+  background: #69e;
+  transition: all linear 0.5s;
+    margin-bottom: 400px;
+}
+#demo_one:hover{
+  width:100%;
+  padding:40px;
+  font-size:60px;
+  cursor:pointer;
+  background: #025;
+}
+/*new code start here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
